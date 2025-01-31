@@ -55,16 +55,9 @@ If you haven't installed Wireshark already, download and install it from the off
 2. **Select the network interface**: Choose the interface that corresponds to your physical wired network (e.g., Ethernet, `eth0`, `enp0s3`).
 3. **Start capturing**: Click the blue shark fin icon to start capturing packets.
 4. **Stop capturing**: Click the red square icon after you've captured enough packets. You can save the capture file (`.pcap` format) for further analysis.
-
-### Step 3: Observing the Internet Layer of the TCP/IP Model
-
-The **Internet Layer** includes protocols like **IP** (e.g., IPv4, IPv6).
-
-- **Filter for IP traffic**: Use the filter `ip` for IPv4 or `ipv6` for IPv6.
-  
-  Example filter for IPv4:
-  ```plaintext
-  iP
+5. **Save the capture**:
+   - Go to `File` > `Save As` and save the captured packets in `.pcap` format for later analysis.
+6. **Tasks**: Each task will be done step by step
 
 
 ## Getting Started
