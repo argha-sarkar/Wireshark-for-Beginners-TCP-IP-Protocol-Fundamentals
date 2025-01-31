@@ -41,6 +41,31 @@ By the end of this project, you will be able to:
 - A physical wired network to capture packets from.
 - Basic understanding of networking concepts, including TCP/IP.
 
+## Step-by-Step Instructions
+
+### Step 1: Install Wireshark
+
+If you haven't installed Wireshark already, download and install it from the official website:
+
+- [Wireshark Download](https://www.wireshark.org/)
+
+### Step 2: Start Capturing Network Traffic
+
+1. **Open Wireshark**.
+2. **Select the network interface**: Choose the interface that corresponds to your physical wired network (e.g., Ethernet, `eth0`, `enp0s3`).
+3. **Start capturing**: Click the blue shark fin icon to start capturing packets.
+4. **Stop capturing**: Click the red square icon after you've captured enough packets. You can save the capture file (`.pcap` format) for further analysis.
+
+### Step 3: Observing the Internet Layer of the TCP/IP Model
+
+The **Internet Layer** includes protocols like **IP** (e.g., IPv4, IPv6).
+
+- **Filter for IP traffic**: Use the filter `ip` for IPv4 or `ipv6` for IPv6.
+  
+  Example filter for IPv4:
+  ```plaintext
+  ip
+
 ## Getting Started
 
 1. Install [Wireshark](https://www.wireshark.org/).
